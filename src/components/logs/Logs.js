@@ -20,6 +20,8 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
   // };
   if (loading || logs === null) {
     return <Preloader />;
+  } else {
+    console.log(logs);
   }
   return (
     <Fragment>

@@ -5,13 +5,14 @@ import { connect } from "react-redux";
 import { updateLog } from "../../action/logAction";
 
 const EditLogModal = ({ current, updateLog }) => {
-  console.log(current);
+  // console.log(current);
   const [message, setMessage] = useState("");
   const [attention, setAttention] = useState(false);
   const [tech, setTech] = useState("");
 
   useEffect(() => {
     if (current) {
+      console.log(current.tech);
       setMessage(current.message);
       setAttention(current.attention);
       setTech(current.tech);
@@ -33,7 +34,7 @@ const EditLogModal = ({ current, updateLog }) => {
   return (
     <div id="edit-log-modal" className="modal" style={{ modalStyle }}>
       <div className="modal-content">
-        <h4>Enter Sytem Log</h4>
+        <h4>Enter System Log</h4>
         <div className="row">
           <div className="input-field">
             <input

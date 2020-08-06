@@ -7,12 +7,12 @@ import { deleteLog, setCurrent } from "../../action/logAction";
 import M from "materialize-css/dist/js/materialize.min.js";
 const LogItem = ({ log, deleteLog, setCurrent }) => {
   console.log(log);
+  const { id, message, attention, date, tech } = log;
   const onDelete = () => {
-    deleteLog(log.id);
-
+    deleteLog(id);
     M.toast({ html: "Deleted log successfully" });
   };
-  const { id, message, attention, date, tech } = log;
+
   return (
     <Fragment>
       <li className="collection-item">
