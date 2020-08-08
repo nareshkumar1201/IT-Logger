@@ -24,6 +24,16 @@ const EditLogModal = ({ current, updateLog }) => {
       M.toast({ html: "please enter required feild", inDuration: 1000 });
     } else {
       console.log(message, tech, attention);
+      const updLog = {
+        id: current.id,
+        message,
+        attention,
+        tech,
+        date: new Date(),
+      };
+      updateLog(updLog);
+      M.toast({ html: "Log Updated" });
+
       // clear Fields
       setMessage("");
       setTech("");
@@ -54,7 +64,7 @@ const EditLogModal = ({ current, updateLog }) => {
             <select
               name="tech"
               value={tech}
-              className="input-feild"
+              className="browser-default"
               onChange={(e) => setTech(e.target.value)}
             >
               <option value="" disabled>

@@ -6,7 +6,7 @@ import { deleteLog, setCurrent } from "../../action/logAction";
 
 import M from "materialize-css/dist/js/materialize.min.js";
 const LogItem = ({ log, deleteLog, setCurrent }) => {
-  console.log(log);
+  // console.log(log);
   const { id, message, attention, date, tech } = log;
   const onDelete = () => {
     deleteLog(id);

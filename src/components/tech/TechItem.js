@@ -1,19 +1,18 @@
-import React, { Fragment } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 const TechItem = ({ tech }) => {
+  console.log(tech);
   const { firstName, lastName } = tech;
   return (
-    <Fragment>
-      <li className="collection-item">
-        <div>
-          {firstName} {lastName}
-          <a href="#!" className="secondary-content">
-            <i className="material-icons grey-text">delete</i>
-          </a>
-        </div>
-      </li>
-    </Fragment>
+    <li className="collection-item">
+      <div>
+        {firstName} {lastName}
+        <a href="#!" className="secondary-content">
+          <i className="material-icons grey-text">delete</i>
+        </a>
+      </div>
+    </li>
   );
 };
 

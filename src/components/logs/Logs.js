@@ -21,7 +21,7 @@ const Logs = ({ log: { logs, loading }, getLogs }) => {
   if (loading || logs === null) {
     return <Preloader />;
   } else {
-    console.log(logs);
+    // console.log(logs);
   }
   return (
     <Fragment>

@@ -1,32 +1,25 @@
 {
   "logs": [
     {
-      "id": "ffa780b7-5a60-48da-b442-5d31d58414c0",
-      "message": "server Error --server 007 --block b",
-      "attention": true,
-      "tech": "Sam Smith",
-      "date": "2020-08-06T05:26:50.169Z"
-    },
-    {
-      "id": "3d2e2725-683a-4ec5-8057-3c930569a581",
-      "message": "cable Network damage -block 5 -2nd floor ",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-08-06T05:27:40.404Z"
-    },
-    {
       "id": "3c598f0a-7e23-4d5f-b790-4e6a3d7e715c",
-      "message": "neet system login password key --sameer - system admin -#0025 address to Sravern",
+      "message": "system admin -#0025",
       "attention": true,
       "tech": "John Doe",
-      "date": "2020-08-06T05:30:32.483Z"
+      "date": "2020-08-07T12:00:18.824Z"
     },
     {
       "id": "41fb34bf-b3e7-498f-8157-7f2c56d5fda9",
-      "message": "server 006 -block c",
+      "message": "server 006 -block c    inform to mr. raghav",
       "attention": true,
-      "tech": "John Doe",
-      "date": "2020-08-06T05:49:18.584Z"
+      "tech": "Sara Wilson",
+      "date": "2020-08-07T09:27:45.595Z"
+    },
+    {
+      "id": "9182b301-a12f-4503-a32f-de622cf08f72",
+      "message": "network failed --block 5 cabin -6a",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-08-07T08:35:06.700Z"
     }
   ],
   "techs": [
